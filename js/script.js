@@ -31,3 +31,49 @@ function dati(){
     }
 }
 
+let num1;
+let num2;
+let piu = num1+num2;
+let meno = num1-num2;
+let per = num1*num2;
+let diviso = num1/num2;
+
+function somma(){
+    num1 = document.getElementById('num1').value;
+    console.log(num1);
+    num2 = document.getElementById('num2').value;
+    console.log(num2);
+
+    document.getElementById('risultato').innerHTML = piu;
+    console.log(piu);
+}
+
+function sottr(){
+    num1 = document.getElementById('num1').value;
+    console.log(num1);
+    num2 = document.getElementById('num2').value;
+    console.log(num2);
+
+    document.getElementById('risultato').innerHTML = meno;
+    console.log(meno);
+}
+
+function molti(){
+    num1 = document.getElementById('num1').value;
+    console.log(num1);
+    num2 = document.getElementById('num2').value;
+    console.log(num2);
+
+    document.getElementById('risultato').innerHTML = per;
+    console.log(per);
+}
+
+function divi(){
+    num1 = document.getElementById('num1').value;
+    console.log(num1);
+    num2 = document.getElementById('num2').value;
+    console.log(num2);
+
+    document.getElementById('risultato').innerHTML = diviso;
+    console.log(diviso);
+}

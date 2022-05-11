@@ -1,6 +1,10 @@
 .pensione {
     background-color: aliceblue;
     border-radius: 30px;
+    margin: 0 auto;
+    border: 2px solid lightblue;
+    padding-left: 20rem;
+    padding-right: 10rem;
 }
 
 h1 {
@@ -28,4 +32,8 @@ button {
 .calcolatrice {
     background-color: aliceblue;
     border-radius: 30px;
+    margin: auto;
+    border: 2px solid lightblue;
+    padding-left: 20rem;
+    padding-right: 10rem;
 }
