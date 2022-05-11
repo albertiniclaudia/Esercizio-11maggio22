@@ -9,8 +9,12 @@ h1 {
 
 li {
     list-style: none;
-    font-weight: bold;
     padding-bottom: 1rem;
+}
+
+input {
+    width: 4rem;
+    text-align: center;
 }
 
 button {
