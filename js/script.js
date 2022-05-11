@@ -31,49 +31,34 @@ function dati(){
     }
 }
 
-let num1;
-let num2;
-let piu = num1+num2;
-let meno = num1-num2;
-let per = num1*num2;
-let diviso = num1/num2;
-
 function somma(){
-    num1 = document.getElementById('num1').value;
-    console.log(num1);
-    num2 = document.getElementById('num2').value;
-    console.log(num2);
-
-    document.getElementById('risultato').innerHTML = piu;
-    console.log(piu);
+    let num1 = document.getElementById('num1').value;
+    let num2 = document.getElementById('num2').value;
+    let result = (+num1) + (+num2);
+    stampavalore(result);
 }
 
 function sottr(){
-    num1 = document.getElementById('num1').value;
-    console.log(num1);
-    num2 = document.getElementById('num2').value;
-    console.log(num2);
-
-    document.getElementById('risultato').innerHTML = meno;
-    console.log(meno);
+    let num1 = document.getElementById('num1').value;
+    let num2 = document.getElementById('num2').value;
+    let result = (+num1) - (+num2);
+    stampavalore(result);
 }
 
 function molti(){
-    num1 = document.getElementById('num1').value;
-    console.log(num1);
-    num2 = document.getElementById('num2').value;
-    console.log(num2);
-
-    document.getElementById('risultato').innerHTML = per;
-    console.log(per);
+    let num1 = document.getElementById('num1').value;
+    let num2 = document.getElementById('num2').value;
+    let result = (+num1) * (+num2);
+    stampavalore(result);
 }
 
 function divi(){
-    num1 = document.getElementById('num1').value;
-    console.log(num1);
-    num2 = document.getElementById('num2').value;
-    console.log(num2);
+    let num1 = document.getElementById('num1').value;
+    let num2 = document.getElementById('num2').value;
+    let result = (+num1) / (+num2);
+    stampavalore(result);
+}
 
-    document.getElementById('risultato').innerHTML = diviso;
-    console.log(diviso);
+function stampavalore(risultato){
+    document.getElementById('risultato').innerHTML = risultato;
 }

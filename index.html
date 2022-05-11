@@ -11,11 +11,13 @@
 <body>
     <div class="pensione">
         <h1>Dati:</h1>
-        <input type="text" id="nome" placeholder="Nome">
-        <input type="text" id="cognome" placeholder="Cognome">
-        <input type="text" id="citta" placeholder="Città">
-        <input type="text" id="eta" placeholder="Età">
-        <button type="button" onclick="dati()">Invio</button>
+        <div class="box1">
+            <input type="text" nome="nome" id="nome" placeholder="Nome">
+            <input type="text" nome="cognome" id="cognome" placeholder="Cognome">
+            <input type="text" nome="citta" id="citta" placeholder="Città">
+            <input type="number" nome="eta" id="eta" placeholder="Età">
+            <button type="button" onclick="dati()">Invio</button>
+        </div>
 
         <ul>
             <li><b>1. Nome: </b><span id="risposta1"> </span></li>
@@ -28,12 +30,14 @@
 
     <div class="calcolatrice">
         <h1>Calcola:</h1>
-        <input type="number" id="num1">
-        <button type="button" onclick="somma()"> + </button>
-        <button type="button" onclick="sottr()"> - </button>
-        <button type="button" onclick="molti()"> * </button>
-        <button type="button" onclick="divi()"> / </button>
-        <input type="number" id="num2">
+            <div class="box2">
+                <input type="number" id="num1">
+                <button type="button" onclick="somma()"> + </button>
+                <button type="button" onclick="sottr()"> - </button>
+                <button type="button" onclick="molti()"> * </button>
+                <button type="button" onclick="divi()"> / </button>
+                <input type="number" id="num2">
+            </div>
 
         <p>Risultato: <span id="risultato"> </span></p>
 
