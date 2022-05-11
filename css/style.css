@@ -1,0 +1,27 @@
+.pensione {
+    background-color: aliceblue;
+    border-radius: 30px;
+}
+
+h1 {
+    padding: 1rem 0 0 1rem ;
+}
+
+li {
+    list-style: none;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+button {
+    background-color: rgb(149, 65, 228);
+    border-style: none;
+    width: 5rem;
+    height: 3rem;
+    font-size: 2rem;
+}
+
+.calcolatrice {
+    background-color: aliceblue;
+    border-radius: 30px;
+}
